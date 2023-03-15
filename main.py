@@ -39,4 +39,4 @@ print("Se ha guardado el archivo correctamente. \n Este es el preview: \n\n")
 # TIP:
 # Se recomienda agregar como index_col=0 la primer columna para evitar 
 # un duplicado de indices y que apareca como unamed.
-print(pd.read_csv('output/refri.csv', index_col=0).head())
+print(pd.read_csv('refri.csv', index_col=0).head())
