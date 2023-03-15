@@ -32,7 +32,7 @@ for dataframe in dataframes:
     df = df.merge(right=dataframe, on='time')
 
 # Guardamos en un csv en el directorio output
-df.to_csv('output/refri.csv', encoding='utf-8')
+df.to_csv('refri.csv', encoding='utf-8')
 
 print("Se ha guardado el archivo correctamente. \n Este es el preview: \n\n")
 
